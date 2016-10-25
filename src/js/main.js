@@ -50,3 +50,8 @@ function getDataRequest (objectives){
 		}
 	})
 }
+
+
+
+		
+

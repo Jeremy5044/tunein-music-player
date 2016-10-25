@@ -6,31 +6,39 @@
     <title>My Cool Project</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
   </head>
   <body>
-<!-- <img src="./music-players/image/tunin.png"> --><div class= "headBox">
-  <h3 class="TuneIN">tune<div class="in">in</div></h3>    <div class ="input">
-       <div> 
-<p class="pp">Welcome to tunein your  free app music player, tunein allows you to stream your favort music just simply by inputing the song name,tittle,or artest into the search box  and click tune in. ENJOY.</p></div>
+  <div class ="bodyBox">                
+ <div class= "cartbox"> <img class="cartbox" src="./images/tunin.png"></div>
+<div class= "headBox">
+  <h3 class="TuneIN">.<div class ="input">
+<!--        <div> 
+<p class="pp">Welcome to tunein your  free app music player, tunein allows you to stream your favort music just simply by inputing the song name,tittle,or artest into the search box  and click tune in. ENJOY.</p></div> -->
   <input type="text" placeholder="Search Artist,Songs,Album" id="searchInput">
         <button class="searchButton">TUNEIN</button>
-
-  <div class="player">
+</div>
+  <div class="player">1. click tunin |2.search song
+  |.3click song to play!   
 
       
         <audio id="audioPlayer" controls="controls" autoplay>
           <source class="sourceURL">
         </audio>
       
+      <div class="container">
+     
+   
+
+
+    
+      <div class="ArtistBox"></div>
       
       </div>
-       
-
-    <div class="container">
-      <div class="ArtistBox"></div>
-      </div>
-    </div>
+      <div class="footer">Thanks you for tuning in..</div>
+    
     <script src="js/bundle.js"></script>
+    </div>
   </body>
 </html>
 
