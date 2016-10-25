@@ -1,7 +1,6 @@
 import $ from 'jquery';
 import token from "./token.js"
-// import {getDataRequest} from "./soundcloud.js";
-// import {grabResults} from "./template1.js";
+
 
 
 
@@ -23,7 +22,7 @@ function grabResults (data){
 		}else {
 			var imageHTML = `<img src=${object.artwork_url}>`;
 		}
-		var Html = `<div srcURL=${object.stream_url} class ="ArtistBox">${imageHTML}</div>`;
+		var Html = `<div class="hugeBox"><div srcURL=${object.stream_url} class ="ArtistBox">${imageHTML}</div><div class="p">${object.title}</div> </div>`;
 		totalHtml = totalHtml + Html;
 	})
 	$(".container").html(totalHtml);
